@@ -4,7 +4,7 @@ A recursive implementation to calculate future financial values based on compoun
 
 ## Overview
 
-This program calculates the forecasted value of an investment over time using recursive computation. Given an initial amount, interest rate, and time period, it predicts the future value.
+This program calculates the forecasted value of an investment over time using recursive computation. Given an initial amount, interest rate, and time period, it predicts the future value. d
 
 ## How It Works
 
