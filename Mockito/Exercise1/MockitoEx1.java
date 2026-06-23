@@ -12,9 +12,12 @@ public class MockitoEx1 {
     @Test
     public void mockito() {
         MyExternalApi api = Mockito.mock(MyExternalApi.class);
+        //Arrange
         when(api.getData()).thenReturn("mockito");
         MyService service = new MyService(api);
+        //Act
         String result = service.getData();
+        //Assert
         assertEquals("mockito", result);
     }
 }
