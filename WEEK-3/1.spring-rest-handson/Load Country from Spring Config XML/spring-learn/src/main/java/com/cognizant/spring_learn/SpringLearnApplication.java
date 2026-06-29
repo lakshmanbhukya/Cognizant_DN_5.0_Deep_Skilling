@@ -1,0 +1,32 @@
+package com.cognizant.spring_learn;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+//@SpringBootApplication //Magic annotation: enables auto-config + component scan
+public class SpringLearnApplication {
+    private static final Logger logger = LoggerFactory.getLogger(SpringLearnApplication.class);
+
+    public static void main(String[] args) {
+
+//        SpringApplication.run(SpringLearnApplication.class, args);
+//        // ↑ This does 3 things:
+//        // 1. Creates the ApplicationContext (IoC container)
+//        // 2. Performs Auto-Configuration
+//        // 3. Starts embedded Tomcat on port 8080
+        ApplicationContext context = new ClassPathXmlApplicationContext("country.xml");
+        logger.info("SpringLearnApplication Started");
+        Country country = context.getBean("country", Country.class);
+
+        logger.info("Country Code" + country.getCode());
+        logger.info("Country Name" + country.getName());
+        logger.info(country.toString());
+        logger.info("SpringLearnApplication Stopped");
+
+    }
+
+}
