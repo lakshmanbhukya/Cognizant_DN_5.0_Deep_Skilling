@@ -13,6 +13,7 @@
 [![Oracle PL/SQL](https://img.shields.io/badge/Database-Oracle%20PL%2FSQL-F80000.svg?style=for-the-badge&logo=oracle&logoColor=white)](https://www.oracle.com/)
 [![Spring Security](https://img.shields.io/badge/Spring%20Security-Authentication-6DB33F.svg?style=for-the-badge&logo=springsecurity&logoColor=white)](https://spring.io/projects/spring-security)
 [![JWT](https://img.shields.io/badge/JWT-Token-black.svg?style=for-the-badge&logo=jsonwebtokens&logoColor=white)](https://jwt.io/)
+[![Spring Cloud](https://img.shields.io/badge/Spring%20Cloud-Microservices-6DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)](https://spring.io/projects/spring-cloud)
 
 [![Track](<https://img.shields.io/badge/Track-Java%20Full%20Stack%20(FSE)-brightgreen.svg?style=for-the-badge>)](https://www.cognizant.com)
 [![Initiative](https://img.shields.io/badge/Program-Digital%20Nurture%205.0-blueviolet.svg?style=for-the-badge)](https://www.cognizant.com)
@@ -44,6 +45,9 @@ The focus of this workspace is the **Design Patterns**, **Spring Core**, and **S
 | **Week 3** | **Spring Boot REST**      | [`WEEK-3/SpringBoot REST/1.spring-rest-handson`](./WEEK-3/SpringBoot%20REST/1.spring-rest-handson)                             | Spring Boot web application setup, embedded Tomcat, loading beans from XML config (`ClassPathXmlApplicationContext`)                                                                                         |
 |            | **REST Services**         | [`WEEK-3/SpringBoot REST/2. spring-rest-handson`](./WEEK-3/SpringBoot%20REST/2.%20spring-rest-handson)                         | Creating REST endpoints with `@RestController`, handling HTTP requests, mapping dynamic paths with `@PathVariable`, utilizing Spring Data JPA repositories in REST controllers                               |
 |            | **Spring Security & JWT** | [`WEEK-3/SpringBoot REST/5. JWT-handson`](./WEEK-3/SpringBoot%20REST/5.%20JWT-handson)                                         | Securing endpoints using Spring Security, password hashing with `BCryptPasswordEncoder`, configuring JWT providers using `io.jsonwebtoken` library, and generating JWT tokens upon Basic Auth authentication |
+| **Week 4** | **Microservices Setup**   | [`WEEK-4/Microservices/.../account_and_loan`](./WEEK-4/Microservices/Microservices_with_API_gateway/account_and_loan)                                        | Setting up multi-service architecture with independent Spring Boot applications (`Account` and `Savings` services), implementing RestControllers, and routing between services |
+|            | **Service Discovery**     | [`WEEK-4/Microservices/.../eureka-discovery-server`](./WEEK-4/Microservices/Microservices_with_API_gateway/eureka-and-api-gateway/eureka-discovery-server)   | Establishing a central Netflix Eureka Discovery Server using `@EnableEurekaServer`, configuring Eureka client registration, and service lookup registry |
+|            | **API Gateway & Routing** | [`WEEK-4/Microservices/.../api-gateway`](./WEEK-4/Microservices/Microservices_with_API_gateway/eureka-and-api-gateway/api-gateway)                           | Creating a Spring Cloud Gateway (`api-gateway`) configured for discovery-client routing, utilizing lowercase service-id locators, and implementing custom global filters (`LogFilter`) |
 
 ---
 
