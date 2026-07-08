@@ -1,0 +1,36 @@
+/* CalculatorScore.css */
+
+div {
+  font-family:
+    system-ui,
+    -apple-system;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 15px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 5px;
+}
+
+h2 {
+  font-size: 1.1rem;
+  color: #4a4a4a;
+  font-weight: 500;
+  margin: 8px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+h2:last-of-type {
+  font-size: 1.3rem;
+  color: #2e7d32;
+  font-weight: bold;
+  margin-top: 15px;
+  background-color: #f1f8e9;
+  padding: 8px;
+  border-radius: 4px;
+}
