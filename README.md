@@ -14,6 +14,7 @@
 [![Spring Security](https://img.shields.io/badge/Spring%20Security-Authentication-6DB33F.svg?style=for-the-badge&logo=springsecurity&logoColor=white)](https://spring.io/projects/spring-security)
 [![JWT](https://img.shields.io/badge/JWT-Token-black.svg?style=for-the-badge&logo=jsonwebtokens&logoColor=white)](https://jwt.io/)
 [![Spring Cloud](https://img.shields.io/badge/Spring%20Cloud-Microservices-6DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)](https://spring.io/projects/spring-cloud)
+[![React](https://img.shields.io/badge/React-JS-61DAFB.svg?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)
 
 [![Track](<https://img.shields.io/badge/Track-Java%20Full%20Stack%20(FSE)-brightgreen.svg?style=for-the-badge>)](https://www.cognizant.com)
 [![Initiative](https://img.shields.io/badge/Program-Digital%20Nurture%205.0-blueviolet.svg?style=for-the-badge)](https://www.cognizant.com)
@@ -48,6 +49,11 @@ The focus of this workspace is the **Design Patterns**, **Spring Core**, and **S
 | **Week 4** | **Microservices Setup**   | [`WEEK-4/Microservices/.../account_and_loan`](./WEEK-4/Microservices/Microservices_with_API_gateway/account_and_loan)                                        | Setting up multi-service architecture with independent Spring Boot applications (`Account` and `Savings` services), implementing RestControllers, and routing between services |
 |            | **Service Discovery**     | [`WEEK-4/Microservices/.../eureka-discovery-server`](./WEEK-4/Microservices/Microservices_with_API_gateway/eureka-and-api-gateway/eureka-discovery-server)   | Establishing a central Netflix Eureka Discovery Server using `@EnableEurekaServer`, configuring Eureka client registration, and service lookup registry |
 |            | **API Gateway & Routing** | [`WEEK-4/Microservices/.../api-gateway`](./WEEK-4/Microservices/Microservices_with_API_gateway/eureka-and-api-gateway/api-gateway)                           | Creating a Spring Cloud Gateway (`api-gateway`) configured for discovery-client routing, utilizing lowercase service-id locators, and implementing custom global filters (`LogFilter`) |
+| **Week 5** | **ReactJS Basics**        | [`WEEK-5/1-ReactJS-HOL/myfirstreact`](./WEEK-5/1-ReactJS-HOL/myfirstreact)                                                     | Initializing React web application using Vite scaffold and building basic functional components |
+|            | **Class Components**       | [`WEEK-5/2-ReactJS-HOL/StudentApp`](./WEEK-5/2-ReactJS-HOL/StudentApp)                                                           | Building class-based components, rendering multiple child components dynamically (`Home`, `About`, `Contact` components) within a single app |
+|            | **Props & Cal Functions** | [`WEEK-5/3-ReactJS-HOL/scorecalculatorapp`](./WEEK-5/3-ReactJS-HOL/scorecalculatorapp)                                         | Destructuring and passing props to functional components (`CalculatorScore`), implementing score computation functions and percentage to decimal helpers |
+|            | **Fetch API & Lifecycle**  | [`WEEK-5/4-ReactJS-HOL/blogapp`](./WEEK-5/4-ReactJS-HOL/blogapp)                                                                 | Managing state in class components (`Posts`), implementing `componentDidMount` for data fetching using Fetch API, updating state via `this.setState()`, and using `componentDidCatch` for error handling |
+|            | **Class Models & Styling** | [`WEEK-5/5-ReactJS-HOL/cohort-tracker`](./WEEK-5/5-ReactJS-HOL/cohort-tracker)                                                 | Mapping arrays of custom class-based models (`Cohort`) to list views, configuring modular CSS via CSS Modules, and applying conditional inline styles |
 
 ---
 
