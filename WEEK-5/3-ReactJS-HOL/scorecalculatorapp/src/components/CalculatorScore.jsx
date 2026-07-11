@@ -1,4 +1,4 @@
-import "../css/calscore.css"
+import "../css/calscore.css";
 
 function CalculatorScore({ name, school, total, goal }) {
   const PercentToDecimal = (val) => {
